@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage("Create Docker images") {
             steps {
-			sh 'ssh rymar64:Hbvfhdj12345@13.72.67.146 \'sudo -i && cd /root/github && git clone https://github.com/rymar24/html2.git\' '
+			sh 'ssh rymar64:Hbvfhdj12345@13.72.67.146 \'sudo cd /root/github && sudo git clone https://github.com/rymar24/html2.git\' '
             }
         }
     }	
